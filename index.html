@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale= 1.0" />
+    
+    <link rel="stylesheet" href="/Encriptador/reset.css">
+    <link rel="stylesheet" href="/Encriptador/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <title>Encriptador Alura ONE</title>
+
+</head>
+
+<body>
+  
+        <header>    
+            <img class="logo" src="/Encriptador/img/Vector.png" alt="logo-alura">
+        </header>   
+    
+        <main class="principal"></main>
+
+            <textarea id="container__input" placeholder="Ingrese el texto aquí"></textarea> 
+            <textarea id="container__output">Ningún mensaje fue encontrado 
+                    
+Ingresa el texto que desees encriptar o desencriptar</textarea> 
+
+            <div>
+                <h6 id ="info">&#128712 Solo letras minusculas y sin acentos</h6>
+            </div>
+            
+            <div class ="botones">
+               
+                <button id="botonEncriptar">Encriptar!</button>
+                <button id="botonDesencriptar">Desencriptar!</button> 
+                <button id="botonCopiar" style="display:none" onclick="funcionCopiar()">Copiar</button>
+                
+            </div>
+
+                <footer>
+
+                    <a title="LinkedIn" href="https://www.linkedin.com/in/caren-atala/"><img class="logo-linkedin" src="/Encriptador/img/linkedin_icon.png" alt="logo LinkedIn"></a> 
+                    <a title="GitHub" href="https://github.com/Caren-A"><img class="logo-github" src="/Encriptador/img/github_icon.png" alt="logo GitHub"></a>
+                    <p>Creado con &#9829 by Caren</p>
+             
+                </footer>
+                
+        </main>
+
+
+</body>
+
+<script src="/Encriptador/encriptador.js"></script>
+
+</html>

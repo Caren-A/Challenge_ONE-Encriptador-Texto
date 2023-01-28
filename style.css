@@ -1,0 +1,283 @@
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{   
+    border-radius: 0px;    
+    background: #F3F5FC;
+}
+
+.logo{
+
+   padding-left: 10px; 
+   padding-top: 4px;
+   padding-bottom: 4px;
+
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+#container__input{   
+    
+    padding-left: 60px;
+    padding-right: 160px;
+    height: 240px;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    outline: none;
+    font-size: 30px;
+    background: #F3F5FC;
+    text-transform: lowercase;
+
+}
+
+#container__output{
+
+    height: 310px;
+    background: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url("/Encriptador/img/Muñeco.png");
+    background-repeat: no-repeat;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-size: 75%;
+    background-position: left 50% bottom 15%;
+    padding: 20px;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 24px;
+    color: #0A3871;
+    outline: none;
+    
+}
+
+#info{
+
+    padding-left: 30px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    color: #727272;
+
+}
+
+.botones{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#botonEncriptar{
+
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 260px;
+    height: 60px;
+    margin: 10px;
+    background:#0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+
+#botonDesencriptar{
+
+    color: #0A3871;
+    font-size: 20px;
+    width: 260px;
+    height: 60px;
+    margin: 10px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+   
+}
+
+#botonCopiar{
+
+    color: #0A3871;
+    font-size: 20px;
+    width: 260px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 200px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 1s all;
+   
+}
+
+#botonCopiar:hover{
+    background: #d5e6fa;
+    transform: scale(1.1); 
+}
+
+#botonEncriptar:hover{
+    transform: scale(1.1);
+}
+
+#botonDesencriptar:hover{
+    transform: scale(1.1); 
+}
+
+footer{
+    
+    background-color: #172e51;
+    background-image: linear-gradient(0deg, #172e51 0%, #f4f6fc 100%);
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*CSS RESPONSIVE*/
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+   
+    .logo{
+        width: 25px;
+    }
+
+    #container__input{
+
+        width: 30%;
+        height: 180px;
+        font-size: 20px;
+        margin-left: 1em;
+        padding-left: 15%;
+
+    }
+
+    .botones{
+        margin-left: 10%;
+    }
+    
+      #botonCopiar{
+        margin-left: 4%;
+    }
+
+    #info{
+        margin-top: 1em;
+        padding-left: 15%;
+    }
+
+    #container__output{
+
+        width: 50%;
+        height: 120px;
+        margin-left: 20%;
+        background-image: none;
+       
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px){
+   
+    .logo{
+        width: 30px;
+    }
+
+    #container__input{
+
+        width: 60%;
+        height: 300px;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10%;
+        padding-left: 16%;
+
+    }
+
+    #info{
+
+        font-size: 20px;
+        margin-top: 1em;
+        padding-left: 30%;
+
+    }
+
+    
+    #container__output{
+
+        width: 60%;
+        height: 300px;
+        text-align: center;
+        margin-left: 16%;
+        font-size: 25px;
+        background-image: none;
+       
+    }
+
+    .botones{
+        font-size: 25px;
+        margin-left: 12%;
+    }
+    
+    #botonCopiar{
+       margin-left: 25%;
+    }
+
+    footer{
+       font-size: 20px;
+       text-align: center;
+    }
+}
+
+@media screen and (min-width:1280px){
+    
+    .logo{
+        width: 40px;
+    }
+
+    #container__input{
+
+        width: 80%;
+        height: 500px;
+        font-size: 45px;
+        text-align: center;
+
+    }
+
+    #info{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #container__output{
+
+        width: 60%;
+        height: 250px;
+        text-align: center;
+        background-size: 25%;
+        background-position: left 50% bottom 5%;
+        padding: 20px;
+        font-size: 25px;
+       
+    }
+
+    .botones{
+        font-size: 30px;
+        margin-left: 28%;
+    }
+    
+    #botonCopiar{
+       margin-left: 18%;
+    }
+
+    footer{
+        font-size: 25px;
+        text-align: center;
+    }
+}
